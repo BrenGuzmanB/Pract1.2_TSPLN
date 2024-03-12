@@ -1,0 +1,13 @@
+para:para
+los:el
+las:el
+la:el
+una:un
+unos:un
+unas:un
+esta:este
+estos:este
+estas:este
+esos:ese
+esa:ese
+esas:ese
