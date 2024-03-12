@@ -147,3 +147,5 @@ class Stemmer:
         for vocal, acentuada in self.sufijos_rv.items():
             palabra = palabra.replace(acentuada, vocal)
         return palabra
+
+#
