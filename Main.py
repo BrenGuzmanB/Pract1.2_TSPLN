@@ -1,11 +1,12 @@
 """
 Created on Mon Mar 11 22:02:23 2024
 
-@author: Bren Guzmán
+@author: BRENDA ITZEL GUZMÁN BONILLA, BRENDA GARCÍA BRIONES, MARÍA JOSÉ MERINO PÉREZ, MARLY GRACIELA MÁRQUEZ YÁÑEZ 
 """
 
 #%% LIBRERÍAS
-from NLP import Lematizador
+from NLP import Lematizador, Stemmer
+
 
 #%% TEXTO 
 texto_ejemplo = '''
@@ -20,3 +21,6 @@ texto_lematizado = lematizador.lematizar_texto_completo(texto_ejemplo)
 print(texto_lematizado)
 
 #%% STEMMING
+stemmer = Stemmer()
+texto_procesado = stemmer.stem(texto_ejemplo)
+print(texto_procesado)
