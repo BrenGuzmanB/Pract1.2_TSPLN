@@ -1,5 +1,5 @@
 # Práctica 1.2 Stemming y Lematización
-## Temas Selectos de Procesamiento del Lneguaje Natural
+## Temas Selectos de Procesamiento del Lenguaje Natural
 
 ### Integrantes:
 
@@ -12,6 +12,6 @@
 
 - `NLP.py`: Clases para Procesamiento del lenguaje natural (lematización y stemming)
 - `Main.py`: Procesamiento de un texto de ejemplo usando los métodos definidos en NLP.py
-- `reglas.txt`: Reglas para lematizar las palabras
+- `reglas.txt`: Reglas para lematizar las palabras.
 - `excepciones.txt`: Palabras que no se pueden procesar de acuerdo a las reglas establecidas.
 
