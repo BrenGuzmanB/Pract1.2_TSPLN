@@ -21,11 +21,17 @@ eficiente manejo del capital.
 #%% LEMATIZACIÓN
 lematizador = Lematizador()
 texto_lematizado = lematizador.lematizar_texto_completo(texto_ejemplo)
+print('\nTexto original:')
+print(texto_ejemplo)
+print('\n\nTexto lematizado:\n')
 print(texto_lematizado)
 
 #%% STEMMING
 stemmer = Stemmer()
 texto_procesado = stemmer.stem(texto_ejemplo)
+print('\nTexto original:')
+print(texto_ejemplo)
+print('\n\nTexto derivado:\n')
 print(texto_procesado)
 
 #%% LEMATIZACIÓN OCUPANDO LIBRERÍAS
